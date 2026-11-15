@@ -1,7 +1,4 @@
-# Network Intrusion Detection — Project 14
-
-Khung dự án bài tập lớn Data Mining của nhóm, sử dụng dataset NSL-KDD.
-Các file Python hiện chỉ là chỗ bắt đầu, chưa triển khai thuật toán.
+# Network Intrusion Detection 
 
 ## Cấu trúc
 
@@ -22,22 +19,3 @@ Các file Python hiện chỉ là chỗ bắt đầu, chưa triển khai thuật
 | `reports/` | Báo cáo và slide |
 | `main.py` | Điểm bắt đầu của chương trình |
 
-## Bắt đầu
-
-1. Cài Python và tạo môi trường ảo: `python -m venv .venv`.
-2. Kích hoạt môi trường ảo theo hệ điều hành.
-3. Cài thư viện: `python -m pip install -r requirements.txt`.
-4. Tải NSL-KDD và đặt `KDDTrain+.txt`, `KDDTest+.txt` vào `data/raw/`.
-5. Chia việc theo các module trong `src/`.
-
-Dataset: https://www.kaggle.com/datasets/hassan06/nslkdd
-Tài liệu nguồn: https://www.unb.ca/cic/datasets/nsl.html
-
-## Làm việc chung trên GitHub
-
-- Mỗi thành viên làm trên một nhánh, ví dụ `feature/preprocessing`, `feature/kmeans`, `feature/evaluation`.
-- Tạo Pull Request về `main` để thành viên khác review trước khi merge.
-- Chỉ commit mã nguồn, notebook và tài liệu cần thiết. Dataset, mô hình và kết quả sinh ra đã được bỏ qua trong `.gitignore`.
-- Không dùng tập test để chọn tham số hoặc ngưỡng.
-
-Khung này chưa bao gồm kết quả thực nghiệm.
